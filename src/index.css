@@ -1,13 +1,150 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: black;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+#root {
+	color: white;
+}
+
+@-webkit-keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-moz-keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes cursor-blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.four-oh-four {
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100vh;
+	min-width: 100vw;
+	z-index: 2;
+	background-color: black;
+	transition: opacity 300ms ease-out;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.four-oh-four .dJAX_internal {
+	opacity: 0;
+}
+.here {
+	position: fixed;
+	/* top: 0; */
+	left: 0;
+	opacity: 0;
+	background-color: black;
+	width: 100%;
+	/* color: #1ff042; */
+}
+
+.terminal {
+	position: relative;
+	padding: 4rem;
+}
+.terminal .prompt {
+	color: #1ff042;
+	display: block;
+	font-family: "AndaleMono", monospace;
+	font-weight: bold;
+	font-size: 0.9em;
+	letter-spacing: 0.15em;
+	white-space: pre-wrap;
+	text-shadow: 0 0 2px rgba(31, 240, 66, 0.75);
+	line-height: 1;
+	margin-bottom: 0.75em;
+}
+.terminal .prompt:before {
+	content: "> ";
+	display: inline-block;
+}
+.terminal .new-output {
+	display: inline-block;
+}
+.terminal .new-output:after {
+	display: inline-block;
+	vertical-align: -0.15em;
+	width: 0.75em;
+	height: 1em;
+	margin-left: 5px;
+	background: #1ff042;
+	box-shadow: 1px 1px 1px rgba(31, 240, 66, 0.65),
+		-1px -1px 1px rgba(31, 240, 66, 0.65), 1px -1px 1px rgba(31, 240, 66, 0.65),
+		-1px 1px 1px rgba(31, 240, 66, 0.65);
+	-webkit-animation: cursor-blink 1.25s steps(1) infinite;
+	-moz-animation: cursor-blink 1.25s steps(1) infinite;
+	animation: cursor-blink 1.25s steps(1) infinite;
+	content: "";
+}
+
+.result {
+	color: #1ff042;
+	display: block;
+	width: 90vh;
+	font-family: "AndaleMono", monospace;
+	/* font-weight: bold; */
+	font-size: 0.9em;
+	letter-spacing: 0.15em;
+	white-space: pre-wrap;
+	text-shadow: 0 0 2px rgba(31, 240, 66, 0.75);
+	line-height: 1;
+	margin-bottom: 0.75em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	-webkit-animation: cursor-blink 1.5s steps(1) infinite;
+	-moz-animation: cursor-blink 1.5s steps(1) infinite;
+	animation: cursor-blink 1.5s steps(1) infinite;
+	display: inline-block;
+	padding: 25px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	padding: 10px;
+	/* margin-top: 10px; */
+	vertical-align: middle;
 }
