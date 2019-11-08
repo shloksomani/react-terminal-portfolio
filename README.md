@@ -8,7 +8,7 @@ Minimal Portfolio template for Developers built with React. Use it to showcase y
 
 ## Code
 
-The code for this project is in the code-react-terminal branch. For deploying your react-app to GitHub pages follow this link - [Deploy-to-github-pages](https://reactgo.com/deploy-react-app-github-pages/)
+The code for this project is in the react-terminal-code branch for deploying your react-app to GitHub pages follow this link - [Deploy-to-github-pages](https://reactgo.com/deploy-react-app-github-pages/)
 
 ## Installation
 
@@ -24,9 +24,15 @@ GitHub makes it easy to create personal websites. Follow this link - [GitHub Pag
 
 If you already have a GitHub profile (obviously)
 
-Create a new repo with the name {username}.github.io, clone/Fork this repo and copy the files to your newly created repo. Customize your name, links and everything else for your landing page and then git push
+- Create a new repo with the name {username}.github.io
+- Clone/Fork this repo and copy the files to your newly created repo
+- Customize your name, links and everything else for your landing page
+- git push
+
 Voila! Your site should be live at https://{username}.github.io
 
 Here's is a **dummy Landing Page** - [react portfolio](https://shloksomani.github.io/react-terminal-portfolio/)
 
 ## Licence
+
+MIT License © Shlok Somani
