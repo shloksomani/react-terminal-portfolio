@@ -28,6 +28,7 @@ If you already have a GitHub profile (obviously)
 - Clone/Fork this repo and copy the files to your newly created repo
 - Customize your name, links and everything else for your landing page
 - git push
+
 Voila! Your site should be live at https://{username}.github.io
 
 Here's is a **dummy Landing Page** - [react portfolio](https://shloksomani.github.io/react-terminal-portfolio/)
