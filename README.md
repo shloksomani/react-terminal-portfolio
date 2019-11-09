@@ -32,6 +32,13 @@ Voila! Your site should be live at https://{username}.github.io
 
 Here's is a **dummy Landing Page** - [react portfolio](https://shloksomani.github.io/react-terminal-portfolio/)
 
+## Todo
+- Have the arrow functionality so that user can cycle through prev commands 
+- Tab auto complete 
+- Giving unique id's to list elements and removing the hard coded one 
+- Change the theme on user commands  
+- A card like structure for diffrent projects and education 
+
 ## Licence
 
 MIT License © Shlok Somani
